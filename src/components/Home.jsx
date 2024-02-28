@@ -19,6 +19,7 @@ const Home = () => {
     <div className='flex-none text-center'>
 
     <h1 className='text-4xl my-4'>👋🏼 Welcome</h1>
+    <h1 className='text-4xl my-4'>Registration successfully</h1>
     <div>
       <h1 className='text-2xl mb-1'>{auth.currentUser.displayName}</h1>
       <h1 className='text-2xl mb-1'>{auth.currentUser.email}</h1>
